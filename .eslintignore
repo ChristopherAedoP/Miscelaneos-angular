@@ -1,0 +1,16 @@
+# /node_modules/* and /bower_components/* ignored by default
+
+# Ignore built files except build/index.js
+build/*
+!build/index.js
+/build/**
+/coverage/**
+/docs/**
+/jsdoc/**
+/templates/**
+/tests/bench/**
+/tests/fixtures/**
+/tests/performance/**
+/tmp/**
+test.js
+/node_modules/**
